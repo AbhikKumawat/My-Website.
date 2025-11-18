@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>💕 Lovedin | Friends</title>
+
+<style>
+body{
+    text-align: center;
+    margin: 0;
+    font-family: Arial;
+    background: url(https://images.unsplash.com/photo-1696360085643-2fc69d679bdb?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0) 
+    no-repeat center center fixed;
+    background-size: cover;
+}
+
+header{
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    backdrop-filter: blur(6px);
+}
+
+h1{
+    color: #a41b1b;
+    margin: 0;
+}
+
+.friends-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.friend-card{
+    background: rgba(255,255,255,0.8);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.friend-card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.friend-card h3{
+    margin: 10px 0 5px;
+}
+
+button{
+    padding: 8px 18px;
+    font-size: 16px;
+    background: #b31212;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #350505;
+}
+
+.back{
+    margin-top: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>  Friends</h1>
+</header>
+
+<div class="friends-container">
+
+
+    <div class="friend-card">
+        <img src="https://media.istockphoto.com/id/2212478701/vector/monochrome-female-silhouette-with-short-hair.jpg?s=612x612&w=0&k=20&c=Q_6Z6fOgbLwV3lBeCOYybXNNkkeTj8bjUMlIcy8aGtI=">
+        <h3>Aarohi, 19</h3>
+        <p>Loves music & sunsets </p>
+        <button>Message</button>
+    </div>
+
+   
+    <div class="friend-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThz8QcNR_p7NF735YsRUwAHVjb_CupRllVQxszPMNbSebZEmtaCoAq6fI-lENwk_rCWr0&usqp=CAU">
+        <h3>Rishabh, 20</h3>
+        <p>Funny, gamer </p>
+        <button>Message</button>
+    </div>
+
+  
+    <div class="friend-card">
+        <img src="https://media.istockphoto.com/id/2212478701/vector/monochrome-female-silhouette-with-short-hair.jpg?s=612x612&w=0&k=20&c=Q_6Z6fOgbLwV3lBeCOYybXNNkkeTj8bjUMlIcy8aGtI=">
+        <h3>Meera, 18</h3>
+        <p>Book lover </p>
+        <button>Message</button>
+    </div>
+
+
+    <div class="friend-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThz8QcNR_p7NF735YsRUwAHVjb_CupRllVQxszPMNbSebZEmtaCoAq6fI-lENwk_rCWr0&usqp=CAU">
+        <h3>Kabir, 21</h3>
+        <p>Travels & photography </p>
+        <button>Message</button>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
